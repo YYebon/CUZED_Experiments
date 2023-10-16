@@ -10,7 +10,7 @@
 
 Example : 
 (layer[v[r][0]][v[r][1]] is specific fully connected layers weight )
-```
+```python
 r = random.randrange(0,num)
 temp = layer[v[r][0]][v[r][1]].clone() #copy the default value
 layer[v[r][0]][v[r][1]] = 10**random.randrange(3, 10)#*random.randrange(10,20) insert random weight value in random neruon which located in specific layer(fc1)
@@ -19,6 +19,6 @@ layer[v[r][0]][v[r][1]] = 10**random.randrange(3, 10)#*random.randrange(10,20) i
 CNN
 Alexnet
 VGG-16
-
+	
 MNIST
 CIFAR-10
