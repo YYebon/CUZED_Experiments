@@ -23,6 +23,7 @@ The proposed approach involves the following steps for error detection and corre
 3) Remove the top 100 weight neurons in descending order, one by one, by setting their weights to zero. 
 4) After each elimination, evaluate the accuracies of the computations. 
 5) Repeat the process until the highest accuracy neuron state is achieved, ensuring that the output is obtained successfully.
+
 ![image](https://github.com/YYebon/CUZED_Experiments/assets/148024646/8db4c4f8-eb29-41cc-b7e8-0bb27217693c)
 #### The codes are running with Pytorch environment
 
@@ -43,6 +44,8 @@ MNIST
 CIFAR-10
 
 #### Experiment results
+
 ![image](https://github.com/YYebon/CUZED_Experiments/assets/148024646/170d0673-7268-4954-9bb1-ecbea425fed7)
+
 evaluate CUZED on popular DNN models with two datasets. Our evaluation shows that CUZED can recover the reduced accuracy with a single large error, even when it is reduced to 12.4% when the original was 99%. We have even found that it gets better than the original accuracy. We have concluded that, through the experiment, CUZED performed efficiently in both error correction and accuracy enhancement.
 
