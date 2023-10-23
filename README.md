@@ -1,6 +1,7 @@
 
 # CUZED_Experiments
 ### Experiments about paper CUZED
+### https://koreaai.org/sites/koreaai2023/media?key=site/koreaai2023/abs/F-1-1.pdf
 ## CUZED works with this flows 
 
 ![image](https://github.com/YYebon/CUZED_Experiments/assets/148024646/8db4c4f8-eb29-41cc-b7e8-0bb27217693c)
