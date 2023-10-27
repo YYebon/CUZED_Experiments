@@ -8,14 +8,9 @@
 
 
 ### CUZED works with this flows 
-#### Based on Sanity-Check’s spatial checksum on FC layers
-![image](https://github.com/YYebon/CUZED_Experiments/assets/148024646/8f697b0a-7da3-4d7d-a817-756b48e7b0ee)
+#### Based on any error-check method on FC layers
+(used Sanity-Check in this paper)
 
-First, it adds one more row in the weight matrix and sets the additional column values to the additive inverse of the summation of all values in the same column. 
-
-Similarly, one additional bias value is required and should equal the additive inverse of the sum of all other bias values. Interestingly, these modifications are equivalent to adding an extra neuron in the FC layer named the sanity neuron. 
-
-Next, summing the all-neuron’s outputs and performing the check operation by adding the sanity neuron’s value with the summing outputs. This sequence is on the check neuron, and its result should be zero in the absence of errors.
 
 #### Error Correction by eliminating a fulty neuron.
 The proposed approach involves the following steps for error detection and correction: 
