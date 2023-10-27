@@ -4,7 +4,9 @@
 
 # CUZED_Experiments
 ### Experiments about paper CUZED
-[CUZED.pdf](https://github.com/YYebon/CUZED_Experiments/files/13184166/CUZED.pdf)
+[CUZED: Error Correction Using Zero-Weight
+upon Low-Cost Error Detection on Fully Connected Layers
+.pdf](https://github.com/YYebon/CUZED_Experiments/files/13184166/CUZED.pdf)
 
 
 ### CUZED works with this flows 
